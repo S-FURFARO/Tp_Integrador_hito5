@@ -7,7 +7,7 @@ st.set_page_config(page_title="Adelanto TP", layout="wide")
 # Función para obtener la conexión a la base de datos remota
 def get_connection():
     return pymysql.connect(
-        host="sql201.infinityfree.com",
+        host="sql201.infinityfree.com",  # Verificá en tu panel de InfinityFree si tu host es exactamente este u otro (ej. sql302...)
         user="if0_43285229",
         password="1YZWW74oZ2l4cIR",
         database="if0_43285229_Tp_Integrador_hito5",
